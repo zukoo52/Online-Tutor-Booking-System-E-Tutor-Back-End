@@ -3,7 +3,7 @@ This is the back-end of the E-Tutor Online Tutor Booking System, developed using
 
 ⚠️ Disclaimer: This project is for learning and practical purposes only. It is not a real-world application.
 Group Contribution:
-
+![Image](https://github.com/user-attachments/assets/3770910a-f9da-4c39-80eb-97d3743ff492)
 🌟 Features
 👩‍🎓 Student Features:
 ✅ User Registration & Login (Secure authentication)
