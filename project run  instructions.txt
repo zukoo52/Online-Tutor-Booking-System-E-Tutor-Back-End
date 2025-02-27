@@ -1,0 +1,30 @@
+
+
+01.clone the project (inside htdocs file)
+git clone https://github.com/AIO1234/Online-Tutor-Booking-System-E-Tutor-BE
+
+02.Set up environment
+composer install
+
+03. create .env file and change
+	APP_URL (http://localhost/Online-Tutor-Booking-System-E-Tutor-BE/public)
+	DB_CONNECTION
+	DB_HOST
+	DB_PORT
+	DB_DATABASE (create db in localhost/phpmyadmin)
+	DB_USERNAME
+	DB_PASSWORD
+
+04. Generate application key
+php artisan key:generate
+
+05. Migrate database
+php artisan migrate
+
+06.Seed database 
+php artisan db:seed
+
+07. Run project
+php artisan serve
+
+

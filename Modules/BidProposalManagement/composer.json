@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/bidproposalmanagement",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\BidProposalManagement\\": "app/",
+            "Modules\\BidProposalManagement\\Database\\Factories\\": "database/factories/",
+            "Modules\\BidProposalManagement\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\BidProposalManagement\\Tests\\": "tests/"
+        }
+    }
+}

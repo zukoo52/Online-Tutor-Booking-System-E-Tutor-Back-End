@@ -1,0 +1,11 @@
+{
+    "name": "BidProposalManagement",
+    "alias": "bidproposalmanagement",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BidProposalManagement\\app\\Providers\\BidProposalManagementServiceProvider"
+    ],
+    "files": []
+}

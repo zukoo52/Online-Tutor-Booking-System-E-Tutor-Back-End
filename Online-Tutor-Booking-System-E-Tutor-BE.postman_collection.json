@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "728128ab-e2d9-48b7-98a0-3a4e2c2bfb0c",
+		"name": "Online-Tutor-Booking-System-E-Tutor-BE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14352722"
+	},
+	"item": [
+		{
+			"name": "Subject Management",
+			"item": [
+				{
+					"name": "Add Subject",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "subject_name",
+									"value": "JS",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{Online-Tutor-Booking-System-E-Tutor-BE}}/storesubject",
+							"host": [
+								"{{Online-Tutor-Booking-System-E-Tutor-BE}}"
+							],
+							"path": [
+								"storesubject"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Subjects",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Online-Tutor-Booking-System-E-Tutor-BE}}/allsubject",
+							"host": [
+								"{{Online-Tutor-Booking-System-E-Tutor-BE}}"
+							],
+							"path": [
+								"allsubject"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Subject",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{Online-Tutor-Booking-System-E-Tutor-BE}}/updatsubject/1?subject_name=Php",
+							"host": [
+								"{{Online-Tutor-Booking-System-E-Tutor-BE}}"
+							],
+							"path": [
+								"updatsubject",
+								"1"
+							],
+							"query": [
+								{
+									"key": "subject_name",
+									"value": "Php"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Subject",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{Online-Tutor-Booking-System-E-Tutor-BE}}/deletesubject/2",
+							"host": [
+								"{{Online-Tutor-Booking-System-E-Tutor-BE}}"
+							],
+							"path": [
+								"deletesubject",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

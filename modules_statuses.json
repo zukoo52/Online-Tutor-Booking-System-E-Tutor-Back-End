@@ -1,0 +1,10 @@
+{
+    "UserManagement": true,
+    "JobsManagement": true,
+    "BidProposalManagement": true,
+    "Review": true,
+    "ReviewManagement": true,
+    "TutorJobManagement": true,
+    "TeacherSubjectManagement": true,
+    "SubjectManagement": true
+}

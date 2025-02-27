@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/tutorjobmanagement",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\TutorJobManagement\\": "app/",
+            "Modules\\TutorJobManagement\\Database\\Factories\\": "database/factories/",
+            "Modules\\TutorJobManagement\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\TutorJobManagement\\Tests\\": "tests/"
+        }
+    }
+}

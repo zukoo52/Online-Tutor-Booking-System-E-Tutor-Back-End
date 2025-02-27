@@ -1,0 +1,11 @@
+{
+    "name": "TutorJobManagement",
+    "alias": "tutorjobmanagement",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TutorJobManagement\\app\\Providers\\TutorJobManagementServiceProvider"
+    ],
+    "files": []
+}

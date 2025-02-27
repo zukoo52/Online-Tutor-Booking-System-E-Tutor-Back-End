@@ -1,0 +1,11 @@
+{
+    "name": "ReviewManagement",
+    "alias": "reviewmanagement",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ReviewManagement\\app\\Providers\\ReviewManagementServiceProvider"
+    ],
+    "files": []
+}
