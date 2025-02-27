@@ -1,33 +1,34 @@
-📚 Online Tutor Booking System - E-Tutor (Back-End) 🎓
-This is the back-end of the E-Tutor Online Tutor Booking System, built using Laravel. The system enables students to find tutors, request lessons, and schedule sessions, while tutors can bid on requests and manage their bookings.
+🎓 Online Tutor Booking System - E-Tutor (Back-End) 📚
+This is the back-end of the E-Tutor Online Tutor Booking System, developed using Laravel. It provides a platform for students to find tutors, request lessons, and schedule sessions, while tutors can bid on requests and manage their bookings.
 
-⚠️ Disclaimer: This is not a real-world project. It was developed for learning and practical purposes as part of a group contribution.
+⚠️ Disclaimer: This project is for learning and practical purposes only. It is not a real-world application.
+Group Contribution:
 
 🌟 Features
-👩‍🎓 For Students:
-✅ User Registration & Login – Secure authentication
-✅ Find Tutors – Search by subject, location, and availability
-✅ Request a Tutor – Choose session type (online or in-person)
-✅ Schedule Sessions – Manage time slots with selected tutors
-✅ Review & Rate Tutors – Provide feedback on tutor performance
+👩‍🎓 Student Features:
+✅ User Registration & Login (Secure authentication)
+✅ Find Tutors (Search by subject, availability, and location)
+✅ Request a Tutor (Select subject, session type, and schedule)
+✅ View & Manage Tutor Requests
+✅ Rate & Review Tutors
 
-👨‍🏫 For Tutors:
-✅ Profile Management – Set subjects, schedules, and pricing
-✅ Bid on Tutor Requests – Compete for student requests
-✅ Manage Sessions – Accept, decline, and track tutoring sessions
-✅ Earn Ratings & Reviews – Improve credibility and visibility
+👨‍🏫 Tutor Features:
+✅ Profile Management (Set subjects, pricing, and availability)
+✅ Bid on Student Requests
+✅ Manage Sessions (Accept, decline, or reschedule bookings)
+✅ Earn Reviews & Ratings
 
-🔧 Admin Panel:
-✅ User Management – Oversee students & tutors
-✅ Monitor Tutor Requests – Track and manage session activities
-✅ Review Moderation – Ensure fair ratings and feedback
+🔧 Admin Features:
+✅ User Management (Monitor students & tutors)
+✅ Tutor Request Moderation
+✅ Review & Feedback Management
 
 🛠️ Tech Stack
-Framework: Laravel 10
+Backend Framework: Laravel 10
 Database: MySQL
 Authentication: Laravel Sanctum / JWT
 API: RESTful API with Laravel
-Storage: Cloud/Local File System for storing tutor/student data
+Storage: Cloud/Local File System
 🚀 Installation & Setup
 1️⃣ Clone the repository:
 
@@ -62,16 +63,16 @@ bash
 Copy
 Edit
 php artisan serve
-
 📩 Postman API Collection
-To simplify API testing, we have provided a Postman Collection containing all backend endpoints.
+For easier API testing, use the provided Postman Collection containing all backend endpoints.
 
 🔗 Download the Postman Collection:
 Online-Tutor-Booking-System-E-Tutor-BE.postman_collection.json
 
 📌 How to Use:
 1️⃣ Download the file using the link above.
-2️⃣ Open Postman and go to File → Import.
-3️⃣ Upload the .json file and start testing the API.
+2️⃣ Open Postman → File → Import.
+3️⃣ Upload the .json file and start testing API endpoints.
 
-This will help developers quickly test authentication, tutor requests, and other features without manually setting up API calls. 🚀
+🔗 Related Repository
+🔹 Frontend Repository: Online-Tutor-Booking-System-E-Tutor (Frontend)
