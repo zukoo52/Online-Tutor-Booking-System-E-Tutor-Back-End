@@ -1,14 +1,14 @@
 
 
-# **🎓 Online Tutor Booking System - E-Tutor (Back-End) 📚**  
-This is the **back-end** of the **E-Tutor Online Tutor Booking System**, developed using **Laravel**. It provides a platform for students to find tutors, request lessons, and schedule sessions, while tutors can bid on requests and manage their bookings.  
+# **📚 Online Tutor Booking System - E-Tutor (Back-End) 🎓**  
 
-> ⚠️ **Disclaimer:** This project is for **learning and practical purposes only**. It is not a real-world application.  
+This is the **back-end** of the **E-Tutor Online Tutor Booking System**, developed using **Laravel**. The platform enables students to find tutors, request lessons, and schedule sessions, while tutors can bid on requests and manage bookings.  
+
+> ⚠️ **Disclaimer:** This project is for **educational and practical purposes only**. .  
 
 ---
 
 ## **🖼️ Project Overview**  
-![Project Image](https://github.com/user-attachments/assets/3770910a-f9da-4c39-80eb-97d3743ff492)  
 
 ---
 
@@ -34,12 +34,31 @@ This is the **back-end** of the **E-Tutor Online Tutor Booking System**, develop
 
 ---
 
+## **📊 ER Diagram & Database Schema**  
+
+The system follows a **well-structured database design** to handle **user roles, tutor requests, bidding, session management, and payment tracking** efficiently.  
+
+![ER Diagram](https://github.com/user-attachments/assets/ebfb8254-fdef-4bff-ba06-7f3309268946)  
+
+### **🛠️ Key Database Entities & Relationships**  
+- **Users** → Students & Tutors (Role-based access)  
+- **Tutor Requests** → Created by students, accepted by tutors  
+- **Bidding System** → Tutors can bid on student requests  
+- **Sessions** → Scheduled lessons between students and tutors  
+- **Payments** → Transactions for booked sessions  
+- **Reviews & Ratings** → Student feedback on tutor performance  
+
+---
+
 ## **🛠️ Tech Stack**  
-- **Backend Framework:** Laravel 10  
-- **Database:** MySQL  
-- **Authentication:** Laravel Sanctum / JWT  
-- **API:** RESTful API with Laravel  
-- **Storage:** Cloud/Local File System  
+
+| **Technology**  | **Purpose**  |
+|---------------|------------|
+| **Laravel 10**  | Backend Framework (MVC Architecture)  |
+| **MySQL**  | Database Management  |
+| **Laravel Sanctum / JWT**  | Authentication & Security  |
+| **REST API**  | API Communication  |
+| **Postman**  | API Testing  |
 
 ---
 
@@ -76,6 +95,7 @@ php artisan serve
 ---
 
 ## **📩 Postman API Collection**  
+
 For easier API testing, use the provided **Postman Collection** containing all backend endpoints.  
 
 🔗 **Download the Postman Collection:**  
@@ -89,7 +109,37 @@ For easier API testing, use the provided **Postman Collection** containing all b
 ---
 
 ## **🔗 Related Repository**  
+
 🔹 **Frontend Repository:** [Online-Tutor-Booking-System-E-Tutor (Frontend)](https://github.com/zukoo52/Front-End-Online-Tutor-Booking-System-E-Tutor.git)  
 
+🔹 **Frontend UI Preview:**  
 
+![Frontend UI](https://github.com/user-attachments/assets/3770910a-f9da-4c39-80eb-97d3743ff492)  
 
+---
+
+## **🤝 Contributing**  
+
+Contributions are always welcome! To contribute:  
+1. **Fork the repository**  
+2. **Create a new branch**  
+3. **Make your changes**  
+4. **Submit a pull request**  
+
+---
+
+## **📜 License**  
+
+This project is **open-source** and available under the **MIT License**.  
+
+---
+
+## **📬 Contact & Support**  
+
+For any inquiries, feel free to reach out via **GitHub Issues** or email at `your.email@example.com`.  
+
+---
+
+### ⭐ **If you like this project, don’t forget to star ⭐ the repository!**  
+
+---
